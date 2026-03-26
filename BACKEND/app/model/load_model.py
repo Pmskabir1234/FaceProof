@@ -24,7 +24,7 @@ def get_model(weights_path: str):
     global _model_instance
 
     if _model_instance is None:
-        print("🔥 Loading EfficientNet model...")
+        print("Loading EfficientNet model...")
         _model_instance = load_model(weights_path)
 
     return _model_instance
