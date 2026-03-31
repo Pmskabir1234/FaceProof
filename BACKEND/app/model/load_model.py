@@ -27,4 +27,4 @@ def get_model(weights_path: str):
         print("Loading EfficientNet model...")
         _model_instance = load_model(weights_path)
 
-    return _model_instance
+    return _model_instance 
